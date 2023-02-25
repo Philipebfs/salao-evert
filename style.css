@@ -14,29 +14,16 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px;
   background: linear-gradient(to bottom, #ffffff00, #fcfcfc00);
-  position: relative;
-}
-
-header > p {
-  color: rgb(51, 112, 245);
-  font-size: 1.2em;
-  max-width: 600px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 30px;
-  margin: auto;
-  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
 }
 
 
 header > h1 {
   margin: auto;
   margin-top: -5px;
-  display: flex;
   justify-content: center;
   font-size: 36px;
   font-weight: bold;
@@ -74,33 +61,6 @@ nav a:hover {
   padding: 5px;
 }
 
-main {
-  background-color: rgba(255, 255, 255, 0.822);
-  min-width: 300px;
-  max-width: 1000px;
-  margin: auto;
-  margin-bottom: 30px;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-main > h1 {
-  text-align: justify;
-  font-size: 4em;
-  font-family: 'Babylonica', cursive;
-  font-family: 'Cinzel', serif;
-  font-family: 'Dancing Script', cursive;
-  margin-top: 24px;
-  margin-bottom: 28px;
-
-}
-
-article {
-  display: inline-block;
-}
-
 img#logo {
   display: flex;
   margin: auto;
@@ -109,10 +69,42 @@ img#logo {
 }
 
 
+main {
+  background-color: rgba(255, 255, 255, 0.822);
+  min-width: 300px;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+  border-radius: 20px;
+}
+
+section > h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Babylonica', cursive;
+  font-family: 'Cinzel', serif;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 35px;
+  margin-bottom: 28px;
+}
+
+section p {
+  margin-bottom: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article {
+  display: inline-block;
+}
+
+
+
 div#b1 {
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border: 1px solid black;
   border-radius: 50%;
   margin: 10px;
@@ -122,9 +114,7 @@ div#b1 {
   
 }
 
-section p {
-  margin-bottom: 30px;
-}
+
 
 article p {
   text-align: center;
@@ -133,8 +123,8 @@ article p {
 
 div#b2 {
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border: 1px solid black;
   border-radius: 50%;
   margin: 10px;
@@ -142,6 +132,31 @@ div#b2 {
   background-image: url(https://static1.fiquediva.com.br/articles/2/20/08/2/@/157098-o-cabelo-degrade-feminino-combina-com-to-article_gallery_portrait-4.jpg);
   background-size: cover;
   
+}
+
+div#b3 {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 10px;
+
+  background-image: url(https://tudocommoda.com/wp-content/uploads/2018/11/cabelo-platinado-curto-1.jpg);
+  background-size: cover;
+  
+}
+
+div#b4 {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 10px;
+
+  background-image: url(https://static1.fiquediva.com.br/articles/5/19/39/5/@/147912-o-seu-cabelo-cacheado-platinado-vai-fica-article_gallery_portrait-6.jpg);
+  background-size: cover;
 }
 
 
