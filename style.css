@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Cinzel&family=Dancing+Script:wght@700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(https://protectionforbeauty.volkdobrasil.com.br/blog/wp-content/uploads/2019/06/decoracao-de-salao-de-beleza-entenda-as-vantagens-para-o-seu-negocio.jpeg);
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(to bottom, #ffffff00, #fcfcfc00);
+  position: relative;
+}
+
+header > p {
+  color: rgb(51, 112, 245);
+  font-size: 1.2em;
+  max-width: 600px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  margin: auto;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
+}
+
+
+header > h1 {
+  margin: auto;
+  margin-top: -5px;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000da;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
+  font-family: 'Babylonica', cursive;
+  font-family: 'Cinzel', serif;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+
+nav {
+  display: flex;
+  background-color: #ffffff00;
+  padding: 10px;
+
+}
+
+nav a {
+  text-decoration: none;
+
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
+  margin-left: 25px;
+}
+
+nav a:hover {
+  color: #0000009a;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.822);
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+main > h1 {
+  text-align: justify;
+  font-size: 4em;
+  font-family: 'Babylonica', cursive;
+  font-family: 'Cinzel', serif;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 24px;
+  margin-bottom: 28px;
+
+}
+
+article {
+  display: inline-block;
+}
+
+img#logo {
+  display: flex;
+  margin: auto;
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+
+div#b1 {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 10px;
+
+  background-image: url(https://i.pinimg.com/236x/f5/83/9b/f5839b954068d7d4228e8a3479538a03.jpg);
+  background-size: cover;
+  
+}
+
+section p {
+  margin-bottom: 30px;
+}
+
+article p {
+  text-align: center;
+
+}
+
+div#b2 {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 10px;
+  
+  background-image: url(https://static1.fiquediva.com.br/articles/2/20/08/2/@/157098-o-cabelo-degrade-feminino-combina-com-to-article_gallery_portrait-4.jpg);
+  background-size: cover;
+  
+}
+
+
+
+
+
+
+
