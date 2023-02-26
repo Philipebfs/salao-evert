@@ -3,13 +3,18 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
+  background-color: white;
   background-image: url(https://protectionforbeauty.volkdobrasil.com.br/blog/wp-content/uploads/2019/06/decoracao-de-salao-de-beleza-entenda-as-vantagens-para-o-seu-negocio.jpeg);
   background-size: cover;
   background-attachment:fixed;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -99,16 +104,20 @@ article {
   display: inline-block;
 }
 
+div.container {
+  padding-left: 30px;
+}
 
-
-div#b1 {
+div.foto {
   display: inline-block;
   width: 130px;
   height: 130px;
   border: 1px solid black;
   border-radius: 50%;
   margin: 10px;
+}
 
+div#l1 {
   background-image: url(https://i.pinimg.com/236x/f5/83/9b/f5839b954068d7d4228e8a3479538a03.jpg);
   background-size: cover;
   
@@ -121,41 +130,30 @@ article p {
 
 }
 
-div#b2 {
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  border: 1px solid black;
-  border-radius: 50%;
-  margin: 10px;
-  
+div#l2 {
   background-image: url(https://static1.fiquediva.com.br/articles/2/20/08/2/@/157098-o-cabelo-degrade-feminino-combina-com-to-article_gallery_portrait-4.jpg);
   background-size: cover;
   
 }
 
-div#b3 {
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  border: 1px solid black;
-  border-radius: 50%;
-  margin: 10px;
-
+div#l3 {
   background-image: url(https://tudocommoda.com/wp-content/uploads/2018/11/cabelo-platinado-curto-1.jpg);
   background-size: cover;
   
 }
 
-div#b4 {
-  display: inline-block;
-  width: 130px;
-  height: 130px;
-  border: 1px solid black;
-  border-radius: 50%;
-  margin: 10px;
-
+div#l4 {
   background-image: url(https://static1.fiquediva.com.br/articles/5/19/39/5/@/147912-o-seu-cabelo-cacheado-platinado-vai-fica-article_gallery_portrait-6.jpg);
+  background-size: cover;
+}
+
+div#m1 {
+  background-image: url(https://www.megahaircuritiba.com.br/wp-content/uploads/2020/04/aplicacao-megahair.png);
+  background-size: cover;
+}
+
+div#m2 {
+  background-image: url(https://areademulher.r7.com/wp-content/uploads/2019/10/mega-hair-o-que-e-cuidados-6-tipos-de-alongamentos.jpg);
   background-size: cover;
 }
 
