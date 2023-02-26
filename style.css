@@ -111,8 +111,8 @@ div.container {
 
 div.foto {
   display: inline-block;
-  width: 130px;
-  height: 130px;
+  width: 145px;
+  height: 145px;
   border: 1px solid black;
   border-radius: 50%;
   margin: 10px;
@@ -154,10 +154,19 @@ div#m1 {
 }
 
 div#m2 {
-  background-image: url(https://areademulher.r7.com/wp-content/uploads/2019/10/mega-hair-o-que-e-cuidados-6-tipos-de-alongamentos.jpg);
+  background-image: url(https://static1.fiquediva.com.br/articles/7/19/58/7/@/151719-o-cabelo-preto-longo-combina-com-todos-o-article_gallery_portrait-6.jpg);
   background-size: cover;
 }
 
+div#m3 {
+  background-image: url(https://salaovirtual.org/wp-content/uploads/2021/01/foto-luzes-imagem.jpg);
+  background-size: cover;
+}
+
+div#m4 {
+  background-image: url(http://kioshisako.com.br/wp-content/uploads/2018/12/imagem-1.jpg);
+  background-size: cover;
+}
 
 
 
