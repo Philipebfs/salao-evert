@@ -7,8 +7,7 @@
 }
 
 body {
-  background-color: white;
-  background-image: url(https://protectionforbeauty.volkdobrasil.com.br/blog/wp-content/uploads/2019/06/decoracao-de-salao-de-beleza-entenda-as-vantagens-para-o-seu-negocio.jpeg);
+  background-color: rgba(0, 0, 0, 0.164);
   background-size: cover;
   background-attachment:fixed;
 }
@@ -49,7 +48,7 @@ nav {
   background-color: #ffffff00;
   padding: 10px;
   text-align: center;
-
+  padding-bottom: 30px;
 }
 
 nav a {
@@ -101,8 +100,11 @@ section > h1 {
 }
 
 section p {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 3vh;
   margin-bottom: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: cursive;
 }
 
 article {
@@ -117,13 +119,12 @@ div.foto {
   display: inline-block;
   width: 145px;
   height: 145px;
-  border: 1px solid black;
   border-radius: 50%;
   margin: 10px;
 }
 
 div#l1 {
-  background-image: url(https://i.pinimg.com/236x/f5/83/9b/f5839b954068d7d4228e8a3479538a03.jpg);
+  background-image: url(imagens/loiro-1.jpg);
   background-size: cover;
   
 }
@@ -136,39 +137,30 @@ article p {
 }
 
 div#l2 {
-  background-image: url(https://static1.fiquediva.com.br/articles/2/20/08/2/@/157098-o-cabelo-degrade-feminino-combina-com-to-article_gallery_portrait-4.jpg);
+  background-image: url(imagens/loiro-2.jpg);
   background-size: cover;
   
 }
 
-div#l3 {
-  background-image: url(https://tudocommoda.com/wp-content/uploads/2018/11/cabelo-platinado-curto-1.jpg);
-  background-size: cover;
-  
-}
-
-div#l4 {
-  background-image: url(https://static1.fiquediva.com.br/articles/5/19/39/5/@/147912-o-seu-cabelo-cacheado-platinado-vai-fica-article_gallery_portrait-6.jpg);
-  background-size: cover;
-}
 
 div#m1 {
-  background-image: url(https://www.megahaircuritiba.com.br/wp-content/uploads/2020/04/aplicacao-megahair.png);
+  background-image: url(imagens/mega-1.jpg);
   background-size: cover;
 }
 
 div#m2 {
-  background-image: url(https://static1.fiquediva.com.br/articles/7/19/58/7/@/151719-o-cabelo-preto-longo-combina-com-todos-o-article_gallery_portrait-6.jpg);
+  background-image: url(imagens/mega-2.jpg);
+  background-size: contain;
+  background-position: center bottom;
+}
+
+div#c1 {
+  background-image: url(imagens/corte-1.jpg);
   background-size: cover;
 }
 
-div#m3 {
-  background-image: url(https://salaovirtual.org/wp-content/uploads/2021/01/foto-luzes-imagem.jpg);
-  background-size: cover;
-}
-
-div#m4 {
-  background-image: url(http://kioshisako.com.br/wp-content/uploads/2018/12/imagem-1.jpg);
+div#c2 {
+  background-image: url(imagens/corte-2.png);
   background-size: cover;
 }
 
